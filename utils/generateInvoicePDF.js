@@ -31,6 +31,7 @@ export const generateInvoicePDF = async (items, pageWidthMM = 70) => {
       size: size,
       font,
       color: rgb(0, 0, 0),
+      fontWeight: 700,
     });
   };
 
